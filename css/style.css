@@ -1,0 +1,147 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+header:before,.header:after,
+ul:before,.ul:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+    body {
+        font-family: sans-serif;
+        color: white;
+        background: url(../img/a.jpg);
+
+    }
+	header{
+		//background-color:red;
+		
+	}
+
+    .left {
+		width:200px;
+		height:100px;
+        float:left;
+		//background-color:blue;
+        position: absolute;
+        left: 30px;
+        top: 50px;
+    }
+
+    .left img {
+        width: 75px;
+        filter: invert(50);
+
+    }
+	span{
+		font-family:sans-serif;
+		
+	}
+
+    .right {
+		margin-top:-80px;	
+		width:200px;
+		height:100px;
+        float:right;
+		position:relative;
+         //right: 11px;
+       // top: 16px;
+       // display: inline-block;
+	  // background-color:orange;
+        /* border: 2px solid rgb(229, 255, 0); */
+
+
+    }
+
+    .navbar {
+        //background-color:green;
+        display: inline-block;
+		width:70%;
+		margin-left:50px;
+		
+	
+    }
+
+    .navbar li {
+		float:left;
+       // display: inline-block;
+        font-size: 16px;
+		margin-left:62px;
+		list-style:none;
+
+    }
+
+    .navbar li a {
+		display:inline-block;
+        color: white;
+        text-decoration: none;
+        margin: 32px 25px;
+		font-family:verdana;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: grey;
+        text-decoration: underline;
+
+    }
+
+    .btn {
+		display:inline-block;
+       // margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 6px;
+        border-radius: 17px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Anton', sans-serif;
+		//position:absolute;
+		//left:10px;
+		//top:50px;
+    }
+
+    .btn:hover {
+        background-color: rgb(115, 235, 161);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 105px 86px;
+        padding: 5px 2px;
+        border-radius: 29px;
+        width: 53%;
+        cursor: pointer;
+
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 323px;
+        margin: 22px auto;
+        padding: 13px;
+    }
+    .container button:hover {
+        color: brown;
+        background-color: white;
+
+    }
+  
+    .formgroup input {
+        text-align: center;
+        display: block;
+        margin: 5px auto;
+        padding: 8px 16px;
+        width: 382px;
+        border-radius: 22px;
+        font-size: 14px;
+		font-weight:bold;
+        font-family: 'Palanquin Dark', sans-serif;
+    }
